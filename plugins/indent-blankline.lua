@@ -1,8 +1,19 @@
 return {
   "lukas-reineke/indent-blankline.nvim",
-  opts = {
-    char = "",
-    show_current_context = true,
-    -- use_treesitter_scope = true,
-  }
+  main = "ibl",
+  opts = {},
+  config = function()
+    require('ibl').setup {
+      indent = {
+        char = " ",
+        smart_indent_cap = true,
+      },
+      scope = {
+        enabled = true,
+        show_start = false,
+        show_end = false,
+        char = "▏",
+      }
+    }
+  end
 }
