@@ -17,6 +17,7 @@ return {
       "markdown_inline",
       "python",
       "query",
+      "sql",
       "toml",
       "tsx",
       "typescript",
