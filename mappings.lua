@@ -6,5 +6,5 @@ return {
   n = {
     ["<leader>k"] = { ":m .+1<CR>==", desc = "Move text Down" },
     ["<leader>j"] = { ":m .-2<CR>==", desc = "Move text Up" },
-  }
+  },
 }

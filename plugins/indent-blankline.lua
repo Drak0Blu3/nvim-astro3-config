@@ -3,7 +3,7 @@ return {
   main = "ibl",
   opts = {},
   config = function()
-    require('ibl').setup {
+    require("ibl").setup {
       indent = {
         char = " ",
         smart_indent_cap = true,
@@ -13,7 +13,7 @@ return {
         show_start = false,
         show_end = false,
         char = "▏",
-      }
+      },
     }
-  end
+  end,
 }
