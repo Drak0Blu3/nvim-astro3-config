@@ -25,6 +25,10 @@ return {
         "stylua",
         "biome",
       })
+      require("lspconfig").biome.setup {
+        single_file_support = true,
+        settings = {},
+      }
     end,
   },
   {
