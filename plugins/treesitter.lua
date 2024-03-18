@@ -23,6 +23,9 @@ return {
       "typescript",
       "vim",
       "vimdoc",
+      "xml",
+      "json",
+      "graphql",
     })
   end,
 }
